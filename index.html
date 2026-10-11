@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechStore — Компьютерная техника</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- ===== ШАПКА ===== -->
+    <header class="header">
+        <div class="container header-inner">
+            <a href="#" class="logo">
+                <i class="fa-solid fa-microchip"></i> TechStore
+            </a>
+            <nav class="nav">
+                <a href="#laptop">Ноутбуки</a>
+                <a href="#pc">Компьютеры</a>
+                <a href="#accessory">Аксессуары</a>
+                <a href="#contacts">Контакты</a>
+            </nav>
+            <div class="header-actions">
+                <button class="icon-btn cart-btn" title="Корзина">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span class="cart-count">0</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- ===== БАННЕР ===== -->
+    <section class="hero">
+        <div class="container hero-inner">
+            <div class="hero-text">
+                <h1>Технологии будущего <span>уже сегодня</span></h1>
+                <p>Ноутбуки, компьютеры и аксессуары по лучшим ценам. Официальная гарантия и быстрая доставка.</p>
+                <a href="#laptop" class="btn btn-primary">Смотреть каталог</a>
+            </div>
+            <div class="hero-img">
+                <i class="fa-solid fa-laptop-code"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== НОУТБУКИ ===== -->
+    <section class="catalog container" id="laptop">
+        <div class="catalog-header">
+            <h2>💻 Ноутбуки</h2>
+            <span class="cat-count">10 товаров</span>
+        </div>
+        <div class="products">
+
+            <article class="product-card">
+                <div class="product-img">
+                    <span class="product-badge">Хит</span>
+                    <img src="https://app-minsk.by/files/items/5748/icon_480x390.jpg" alt="MacBook Pro 16 M3 Pro">
+                </div>
+                <div class="product-info">
+                    <div class="product-category">Ноутбук</div>
+                    <h3 class="product-title">MacBook Pro 16" M3 Pro</h3>
+                    <p class="product-desc">Чип M3 Pro, 18 ГБ RAM, 512 ГБ SSD</p>
+                    <div class="product-price">$2,499 <span class="old">$2,799</span></div>
+                    <button class="add-to-cart"><i class="fa-solid fa-cart-plus"></i> В корзину</button>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-img">
+                    <img src="https://images.5element.by/resize/d42/d42d6a56cf706580938af22975502a45/600_600_1/4ccd3453006cf0dd5c901ddab4f20b0e.jpg" alt="ASUS ROG Strix G16">
+                </div>
+                <div class="product-info">
+                    <div class="product-category">Ноутбук</div>
+                    <h3 class="product-title">ASUS ROG Strix G16</h3>
+                    <p class="product-desc">RTX 4060, i7-13650HX, 16 ГБ RAM</p>
+                    <div class="product-price">$1,549</div>
+                    <button class="add-to-cart"><i class="fa-solid fa-cart-plus"></i> В корзину</button>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-img">
+                    <img src="https://imgproxy.onliner.by/Kij_0Dr71933FhQbmn0Q1FygWHQcsS-ngLSTCJxw4gU/w:700/h:550/z:2/f:jpg/aHR0cHM6Ly9jb250/ZW50Lm9ubGluZXIu/YnkvY2F0YWxvZy9k/ZXZpY2UvMjAyNC9m/MjQ5NjNiMmI5YzAw/ZDY5YWY2NzU3NWI5/NWMxMzJkMC5qcGc" alt="Dell XPS 15">
+                </div>
+                <div class="product-info">
+                    <div class="product-category">Ноутбук</div>
+                    <h3 class="product-title">Dell XPS 15</h3>
+                    <p class="product-desc">OLED 3.5K, i7-13700H, 16 ГБ RAM</p>
+                    <div class="product-price">$1,899</div>
+                    <button class="add-to-cart"><i class="fa-solid fa-cart-plus"></i> В корзину</button>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-img">
+                    <span class="product-badge">Скидка</span>
+                    <img src="https://ir.ozone.ru/s3/multimedia-1-u/c1000/7217656122.jpg" alt="Lenovo ThinkPad X1 Carbon">
+                </div>
+                <div class="product-info">
+                    <div class="product-category">Ноутбук</div>
+                    <h3 class="product-title">Lenovo ThinkPad X1 Carbon</h3>
+                    <p class="product-desc">i7-1355U, 16 ГБ RAM, 1 ТБ SSD</p>
+                    <div class="product-price">$1,749 <span class="old">$1,999</span></div>
+                    <button class="add-to-cart"><i class="fa-solid fa-cart-plus"></i> В корзину</button>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-img">
+                    <img src="https://ir.ozone.ru/s3/multimedia-w/c1000/6234685652.jpg" alt="HP Pavilion 15">
+                </div>
+                <div class="product-info">
+                    <div class="product-category">Ноутбук</div>
+                    <h3 class="product-title">HP Pavilion 15</h3>
+                    <p class="product-desc">Ryzen 5 7530U, 8 ГБ RAM, 256 ГБ SSD</p>
+                    <div class="product-price">$749</div>
+                    <button class="add-to-cart"><i class="fa-solid fa-cart-plus"></i> В корзину</button>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-img">
+                    <span class="product-badge">Хит</span>
+                    <img src="https://ir.ozone.ru/s3/multimedia-j/c1000/6570914659.jpg" alt="Acer Nitro 5">
+                </div>
+                <div class="product-info">
+                    <div class="product-category">Ноутбук</div>
+                    <h3 class="product-title">Acer Nitro 5</h3>
+                    <p class="product-desc">RTX 3050, i5-12450H, 16 ГБ RAM</p>
+                    <div class="product-price">$999</div>
+                    <button class="add-to-cart"><i class="fa-solid fa-cart-plus"></i> В корзину</button>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-img">
+                    <img src="https://ir.ozone.ru/s3/multimedia-y/c1000/6635448610.jpg" alt="MSI Katana GF66">
+                </div>
+                <div class="product-info">
+                    <div class="product-category">Ноутбук</div>
+                    <h3 class="product-title">MSI Katana GF66</h3>
+                    <p class="product-desc">RTX 3060, i7-12650H, 16 ГБ RAM</p>
+                    <div class="product-price">$1,199</div>
+                    <button class="add-to-cart"><i class="fa-solid fa-cart-plus"></i> В корзину</button>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-img">
+                    <img src="https://www.dxomark.com/wp-content/uploads/medias/post-151141/Samsung-Galaxy-Book3-Pro-16_featured-image-packshot-review.jpg" alt="Samsung Galaxy Book3 Pro">
+                </div>
+                <div class="product-info">
+                    <div class="product-category">Ноутбук</div>
+                    <h3 class="product-title">Samsung Galaxy Book3 Pro</h3>
+                    <p class="product-desc">i7-1360P, 16 ГБ RAM, 512 ГБ SSD</p>
+                    <div class="product-price">$1,449</div>
+                    <button class="add-to-cart"><i class="fa-solid fa-cart-plus"></i> В корзину</button>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-img">
+                    <span class="product-badge">Скидка</span>
+                    <img src="https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/pc/matebook-16s/list/gray.png" alt="Huawei MateBook 16s">
+                </div>
+                <div class="product-info">
+                    <div class="product-category">Ноутбук</div>
+                    <h3 class="product-title">Huawei MateBook 16s</h3>
+                    <p class="product-desc">i9-13900H, 16 ГБ RAM, 1 ТБ SSD</p>
+                    <div class="product-price">$1,349 <span class="old">$1,599</span></div>
+                    <button class="add-to-cart"><i class="fa-solid fa-cart-plus"></i> В корзину</button>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-img">
+                    <img src="https://imgproxy.onliner.by/ZMll0kRB7Wqlrcb7K6Hxs-uN_SY0OxjZr0LeRAjW_4Q/w:700/h:550/z:2/f:jpg/aHR0cHM6Ly9jb250/ZW50Lm9ubGluZXIu/YnkvY2F0YWxvZy9k/ZXZpY2UvMjAyMC82/YmUxYjY2NTY5N2Nj/M2VhMWVlNmUwYWM4/NGZlMmYwOC5qcGVn" alt="Razer Blade 15">
+                </div>
+                <div class="product-info">
+                    <div class="product-category">Ноутбук</div>
+                    <h3 class="product-title">Razer Blade 15</h3>
+                    <p class="product-desc">RTX 4070, i7-13800H, 32 ГБ RAM</p>
+                    <div class="product-price">$2,799</div>
+                    <button class="add-to-cart"><i class="fa-solid fa-cart-plus"></i> В корзину</button>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- ===== КОМПЬЮТЕРЫ ===== -->
+    <section class="catalog container" id="pc">
+        <div class="catalog-header">
+            <h2>🖥️ Компьютеры</h2>
+            <span class="cat-count">10 товаров</span>
+        </div>
+        <div class="products">
+
+            <article class="product-card">
+                <div class="product-img">
+                    <span class="product-badge">Скидка</span>
+                    <img src="https://cdn.microless.com/products/12c72641fb5d47fb7c07dee2fdbad7e2-md.jpg" alt="Игровой ПК Titan X">
+                </div>
+                <div class="product-info">
+                    <div class="product-category">Компьютер</div>
+                    <h3 class="product-title">Игровой ПК Titan X</h3>
+                    <p class="product-desc">RTX 4070, Ryzen 7 7800X3D, 32 ГБ</p>
+                    <div class="product-price">$1,899 <span class="old">$2,100</span></div>
+                    <button class="add-to-cart"><i class="fa-solid fa-cart-plus"></i> В корзину</button>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-img">
+                    <img src="https://app-minsk.by/files/items/5711/icon_480x390.jpg" alt="iMac 24 M3">
+                </div>
+                <div class="product-info">
+                    <div class="product-category">Моноблок</div>
+                    <h3 class="product-title">iMac 24" M3</h3>
+                    <p class="product-desc">Retina 4.5K, 8 ядер, 256 ГБ SSD</p>
+                    <div class="product-price">$1,799</div>
+                    <button class="add-to-cart"><i class="fa-solid fa-cart-plus"></i> В корзину</button>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-img">
+                    <img src="https://torg-pc.ru/upload/iblock/d7e/p12hbxyrac4b7zcb7w92hadv8swvtgh3/ADATA-XPG-VALOR-STORM-TG-Black.webp" alt="Офисный ПК Pro">
+                </div>
+                <div class="product-info">
+                    <div class="product-category">Компьютер</div>
+                    <h3 class="product-title">Офисный ПК Pro</h3>
+                    <p class="product-desc">i5-12400, 16 ГБ RAM, 512 ГБ SSD</p>
+                    <div class="product-price">$549</div>
+                    <button class="add-to-cart"><i class="fa-solid fa-cart-plus"></i> В корзину</button>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-img">
+                    <span class="product-badge">Хит</span>
+                    <img src="https://mobilworld.by/upload/iblock/e2b/e2b62cb236ba72675dfe584c1a1e5cb0.jpg" alt="Mac mini M2">
+                </div>
+                <div class="product-info">
+                    <div class="product-category">Мини-ПК</div>
+                    <h3 class="product-title">Mac mini M2</h3>
+                    <p class="product-desc">Чип M2, 8 ГБ RAM, 256 ГБ SSD</p>
+                    <div class="product-price">$599</div>
+                    <button class="add-to-cart"><i class="fa-solid fa-cart-plus"></i> В корзину</button>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-img">
+                    <span class="product-badge">Скидка</span>
+                    <img src="https://pcmarket.uz/wp-content/uploads/2021/04/PcMarket-cougar.png" alt="Игровой ПК CyberBlade">
+                </div>
+                <div class="product-info">
+                    <div class="product-category">Компьютер</div>
+                    <h3 class="product-title">Игровой ПК CyberBlade</h3>
+                    <p class="product-desc">RTX 4080, i9-13900K, 64 ГБ RAM</p>
+                    <div class="product-price">$2,499 <span class="old">$2,799</span></div>
+                    <button class="add-to-cart"><i class="fa-solid fa-cart-plus"></i> В корзину</button>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-img">
+                    <img src="https://ir.ozone.ru/s3/multimedia-1-z/c1000/7261191251.jpg" alt="Intel NUC 13 Pro">
+                </div>
+                <div class="product-info">
+                    <div class="product-category">Мини-ПК</div>
+                    <h3 class="product-title">Intel NUC 13 Pro</h3>
+                    <p class="product-desc">i7-1360P, 16 ГБ RAM, 512 ГБ SSD</p>
+                    <div class="product-price">$799</div>
+                    <button class="add-to-cart"><i class="fa-solid fa-cart-plus"></i> В корзину</button>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-img">
+                    <img src="https://cdn.microless.com/products/fafbcfe77339b99441121ad35f287c32-hi.jpg" alt="Игровой ПК Vortex">
+                </div>
+                <div class="product-info">
+                    <div class="product-category">Компьютер</div>
+                    <h3 class="product-title">Игровой ПК Vortex</h3>
+                    <p class="product-desc">RTX 4060 Ti, i5-13400F, 16 ГБ RAM</p>
+                    <div class="product-price">$1,299</div>
+                    <button class="add-to-cart"><i class="fa-solid fa-cart-plus"></i> В корзину</button>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-img">
+                    <img src="https://hp.widen.net/content/pgyunh8ech/png/pgyunh8ech.png?w=800&h=600&dpi=72&color=ffffff00" alt="HP Z2 Tower G9">
+                </div>
+                <div class="product-info">
+                    <div class="product-category">Рабочая станция</div>
+                    <h3 class="product-title">HP Z2 Tower G9</h3>
+                    <p class="product-desc">Xeon W-1350, 32 ГБ ECC, 1 ТБ SSD</p>
+                    <div class="product-price">$2,199</div>
+                    <button class="add-to-cart"><i class="fa-solid fa-cart-plus"></i> В корзину</button>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-img">
+                    <span class="product-badge">Хит</span>
+                    <img src="https://cdn.microless.com/products/b604828967290c8108ae2f7604aa37ba-hi.jpg" alt="Dell Alienware Aurora R15">
+                </div>
+                <div class="product-info">
+                    <div class="product-category">Компьютер</div>
+                    <h3 class="product-title">Dell Alienware Aurora R15</h3>
+                    <p class="product-desc">RTX 4090, i9-13900KF, 32 ГБ DDR5</p>
+                    <div class="product-price">$3,499</div>
+                    <button class="add-to-cart"><i class="fa-solid fa-cart-plus"></i> В корзину</button>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-img">
+                    <img src="https://media.wired.com/photos/59e94f7e06a2232e82ba9bd4/master/w_2560%2Cc_limit/HP_ENVY_Curved_AiO_34_Coreset_FrontLeft_NoCamera_HR_tcm245_2386537_tcm245_2385012_tcm245-2386537-2.jpg" alt="HP Envy 34 All-in-One">
+                </div>
+                <div class="product-info">
+                    <div class="product-category">Моноблок</div>
+                    <h3 class="product-title">HP Envy 34" All-in-One</h3>
+                    <p class="product-desc">i9-12900, 32 ГБ RAM, 2 ТБ SSD</p>
+                    <div class="product-price">$2,299</div>
+                    <button class="add-to-cart"><i class="fa-solid fa-cart-plus"></i> В корзину</button>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- ===== АКСЕССУАРЫ ===== -->
+    <section class="catalog container" id="accessory">
+        <div class="catalog-header">
+            <h2>🎧 Аксессуары</h2>
+            <span class="cat-count">12 товаров</span>
+        </div>
+        <div class="products">
+
+            <article class="product-card">
+                <div class="product-img">
+                    <img src="https://images.5element.by/resize/cbc/cbcb8b34611f5c31f2aedff87d166135/600_600_1/575efb2bcd0856f89d975a6d92011bce.jpg" alt="Keychron K2">
+                </div>
+                <div class="product-info">
+                    <div class="product-category">Аксессуар</div>
+                    <h3 class="product-title">Клавиатура Keychron K2</h3>
+                    <p class="product-desc">Механическая, Bluetooth, RGB</p>
+                    <div class="product-price">$129</div>
+                    <button class="add-to-cart"><i class="fa-solid fa-cart-plus"></i> В корзину</button>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-img">
+                    <span class="product-badge">Скидка</span>
+                    <img src="https://imgproxy.onliner.by/3KmgJe7BKgI5AUdCQMrn5tj4pUiS7eP2xXJqtm-EFhM/w:700/h:550/z:2/f:jpg/aHR0cHM6Ly9jb250/ZW50Lm9ubGluZXIu/YnkvY2F0YWxvZy9k/ZXZpY2UvMjAyMi85/NzI1MDkzOWNlNmYy/NTgzNDAwMmZlMTRh/OTU4OTk2Yi5qcGVn" alt="Logitech MX Master 3S">
+                </div>
+                <div class="product-info">
+                    <div class="product-category">Аксессуар</div>
+                    <h3 class="product-title">Мышь Logitech MX Master 3S</h3>
+                    <p class="product-desc">Беспроводная, 8000 DPI, тихая</p>
+                    <div class="product-price">$99 <span class="old">$119</span></div>
+                    <button class="add-to-cart"><i class="fa-solid fa-cart-plus"></i> В корзину</button>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-img">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW5b1V3ANoZUZpNNB5lkMe0vAPA32ywGuDacBu0IyytQ36jAD_gr1cArE&s=10" alt="Dell UltraSharp 27">
+                </div>
+                <div class="product-info">
+                    <div class="product-category">Монитор</div>
+                    <h3 class="product-title">Dell UltraSharp 27"</h3>
+                    <p class="product-desc">4K IPS, 60 Гц, USB-C</p>
+                    <div class="product-price">$449</div>
+                    <button class="add-to-cart"><i class="fa-solid fa-cart-plus"></i> В корзину</button>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-img">
+                    <span class="product-badge">Хит</span>
+                    <img src="https://imgproxy.onliner.by/Jy7uqmwVYb1N8F4pEMiaYwFV0zJZGqZMXxpyS_qWu2A/w:700/h:550/z:2/f:jpg/aHR0cHM6Ly9jb250/ZW50Lm9ubGluZXIu/YnkvY2F0YWxvZy9k/ZXZpY2UvMjAyNi9j/YWQxYmYzOWZhYzRl/Zjc2ZDU4NmMxNDA2/NTZkOTM2Mi5qcGc" alt="Sony WH-1000XM5">
+                </div>
+                <div class="product-info">
+                    <div class="product-category">Наушники</div>
+                    <h3 class="product-title">Sony WH-1000XM5</h3>
+                    <p class="product-desc">Шумоподавление, 30 часов работы</p>
+                    <div class="product-price">$329</div>
+                    <button class="add-to-cart"><i class="fa-solid fa-cart-plus"></i> В корзину</button>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-img">
+                    <img src="https://ir.ozone.ru/s3/multimedia-1-y/c1000/7349558938.jpg" alt="Logitech Brio 4K">
+                </div>
+                <div class="product-info">
+                    <div class="product-category">Веб-камера</div>
+                    <h3 class="product-title">Logitech Brio 4K</h3>
+                    <p class="product-desc">4K UHD, HDR, автофокус</p>
+                    <div class="product-price">$199</div>
+                    <button class="add-to-cart"><i class="fa-solid fa-cart-plus"></i> В корзину</button>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-img">
+                    <span class="product-badge">Скидка</span>
+                    <img src="https://imgproxy.onliner.by/8a0vLEzkae42IT0aQe4LzK6qrdPv-sayoTXZK3nHfqA/w:700/h:550/z:2/f:jpg/aHR0cHM6Ly9jb250/ZW50Lm9ubGluZXIu/YnkvY2F0YWxvZy9k/ZXZpY2UvMjAyMi82/YjczMWMwOThlY2Zh/YjUwNzI0Mzg0YWU1/ZDEzODM1OC5qcGVn" alt="Samsung 990 Pro 2TB">
+                </div>
+                <div class="product-info">
+                    <div class="product-category">SSD</div>
+                    <h3 class="product-title">Samsung 990 Pro 2TB</h3>
+                    <p class="product-desc">NVMe PCIe 4.0, 7450 МБ/с</p>
+                    <div class="product-price">$179 <span class="old">$229</span></div>
+                    <button class="add-to-cart"><i class="fa-solid fa-cart-plus"></i> В корзину</button>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-img">
+                    <img src="https://images.5element.by/resize/da8/da83bb4734e99ba5a8b8f7938f14f15e/600_600_1/bc67c62b10b6c8d1582b6ad58e95088c.jpg" alt="HyperX QuadCast">
+                </div>
+                <div class="product-info">
+                    <div class="product-category">Микрофон</div>
+                    <h3 class="product-title">HyperX QuadCast</h3>
+                    <p class="product-desc">USB, 4 диаграммы, RGB подсветка</p>
+                    <div class="product-price">$139</div>
+                    <button class="add-to-cart"><i class="fa-solid fa-cart-plus"></i> В корзину</button>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-img">
+                    <img src="https://netbox.by/image/cache/catalog/Razer/razer_goliathus_chroma_extended_black-03-417x417.jpg" alt="Razer Goliathus Extended">
+                </div>
+                <div class="product-info">
+                    <div class="product-category">Коврик</div>
+                    <h3 class="product-title">Razer Goliathus Extended</h3>
+                    <p class="product-desc">900×300 мм, тканевый, RGB</p>
+                    <div class="product-price">$39</div>
+                    <button class="add-to-cart"><i class="fa-solid fa-cart-plus"></i> В корзину</button>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-img">
+                    <img src="https://images.5element.by/resize/2dd/2dd063b2054b5a26404cf144d571e304/600_600_1/d853f483adfac0edff40077ff4c9d93e.jpg" alt="AirPods Pro 2">
+                </div>
+                <div class="product-info">
+                    <div class="product-category">Наушники</div>
+                    <h3 class="product-title">AirPods Pro 2</h3>
+                    <p class="product-desc">Активное шумоподавление, MagSafe</p>
+                    <div class="product-price">$249</div>
+                    <button class="add-to-cart"><i class="fa-solid fa-cart-plus"></i> В корзину</button>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-img">
+                    <span class="product-badge">Хит</span>
+                    <img src="https://imgproxy.onliner.by/A_PCrBzpOK_yHzP2BErgvN8UwQyiL6AbyMdMNnhobBY/w:700/h:550/z:2/f:jpg/aHR0cHM6Ly9jb250/ZW50Lm9ubGluZXIu/YnkvY2F0YWxvZy9k/ZXZpY2UvMjAyMy81/NWFlNjgwNjI2NTg5/ZDU3ZDYwNDE2YTZi/Mzg2NzdjMS5qcGVn" alt="Logitech MX Keys S">
+                </div>
+                <div class="product-info">
+                    <div class="product-category">Аксессуар</div>
+                    <h3 class="product-title">Logitech MX Keys S</h3>
+                    <p class="product-desc">Беспроводная, подсветка, Multi-Device</p>
+                    <div class="product-price">$109</div>
+                    <button class="add-to-cart"><i class="fa-solid fa-cart-plus"></i> В корзину</button>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-img">
+                    <img src="https://imgproxy.onliner.by/nBs2qUJ92Th5Lq2SEl-T5CDgGzzliOWzetEPZk5s4Xo/w:170/h:250/z:2/f:jpg/aHR0cHM6Ly9jb250/ZW50Lm9ubGluZXIu/YnkvY2F0YWxvZy9k/ZXZpY2UvMjAyNi8z/ODc3Y2RkYTI2ZTk4/NjZkNmMzNjM0ZDgx/OTg2NzExYS5qcGc" alt="Anker USB-C Hub">
+                </div>
+                <div class="product-info">
+                    <div class="product-category">Аксессуар</div>
+                    <h3 class="product-title">Хаб Anker USB-C 7-in-1</h3>
+                    <p class="product-desc">HDMI 4K, USB 3.0, SD, PD 100W</p>
+                    <div class="product-price">$59</div>
+                    <button class="add-to-cart"><i class="fa-solid fa-cart-plus"></i> В корзину</button>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-img">
+                    <img src="https://images.5element.by/resize/09b/09b0b3bb0d511d6c4167a1a3c887f6b9/600_600_1/185dc1e479d193bf4de21d5440e1ea90.jpg" alt="LG UltraGear 27">
+                </div>
+                <div class="product-info">
+                    <div class="product-category">Монитор</div>
+                    <h3 class="product-title">LG UltraGear 27"</h3>
+                    <p class="product-desc">QHD, 165 Гц, 1 мс, G-Sync</p>
+                    <div class="product-price">$399</div>
+                    <button class="add-to-cart"><i class="fa-solid fa-cart-plus"></i> В корзину</button>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- ===== ПРЕИМУЩЕСТВА ===== -->
+    <section class="features">
+        <div class="container features-inner">
+            <div class="feature"><i class="fa-solid fa-truck-fast"></i><h3>Быстрая доставка</h3><p>По всей стране за 1-3 дня</p></div>
+            <div class="feature"><i class="fa-solid fa-shield-halved"></i><h3>Гарантия 2 года</h3><p>Официальная гарантия производителя</p></div>
+            <div class="feature"><i class="fa-solid fa-credit-card"></i><h3>Удобная оплата</h3><p>Картой или в рассрочку</p></div>
+            <div class="feature"><i class="fa-solid fa-headset"></i><h3>Поддержка 24/7</h3><p>Всегда поможем с выбором</p></div>
+        </div>
+    </section>
+
+    <!-- ===== КОНТАКТЫ ===== -->
+    <section class="contacts container" id="contacts">
+        <h2>Свяжитесь с нами</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Ваше имя" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Сообщение" rows="4" required></textarea>
+            <button type="submit" class="btn btn-primary">Отправить</button>
+        </form>
+    </section>
+
+    <!-- ===== ПОДВАЛ ===== -->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div>
+                <a href="#" class="logo"><i class="fa-solid fa-microchip"></i> TechStore</a>
+                <p>© 2025 TechStore. Все права защищены.</p>
+            </div>
+            <div class="socials">
+                <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-vk"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===== КОРЗИНА ===== -->
+    <aside class="cart-sidebar" id="cartSidebar">
+        <div class="cart-header">
+            <h3>Корзина</h3>
+            <button id="cartClose"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <div class="cart-items" id="cartItems"></div>
+        <div class="cart-footer">
+            <div class="cart-total">Итого: <span id="cartTotal">$0</span></div>
+            <button class="btn btn-primary" id="checkoutBtn">Оформить заказ</button>
+        </div>
+    </aside>
+    <div class="overlay" id="overlay"></div>
+
+    <!-- ===== JAVASCRIPT ===== -->
+    <script>
+    (function () {
+        var cart = JSON.parse(localStorage.getItem('techstore_cart')) || [];
+        var cartCountEl  = document.querySelector('.cart-count');
+        var cartSidebar  = document.getElementById('cartSidebar');
+        var cartItemsEl  = document.getElementById('cartItems');
+        var cartTotalEl  = document.getElementById('cartTotal');
+        var cartCloseBtn = document.getElementById('cartClose');
+        var overlay      = document.getElementById('overlay');
+        var checkoutBtn  = document.getElementById('checkoutBtn');
+
+        function formatPrice(n) { return '$' + n.toLocaleString('en-US'); }
+        function saveCart() { localStorage.setItem('techstore_cart', JSON.stringify(cart)); }
+
+        function addToCart(card) {
+            var title = card.querySelector('.product-title').textContent.trim();
+            var desc  = card.querySelector('.product-desc').textContent.trim();
+            var cat   = card.querySelector('.product-category').textContent.trim();
+            var priceText = card.querySelector('.product-price').childNodes[0].textContent.trim();
+            var price = parseFloat(priceText.replace(/[^0-9.]/g, '')) || 0;
+            var imgEl = card.querySelector('.product-img img');
+            var img = imgEl ? imgEl.src : '';
+            var existing = cart.find(function (i) { return i.name === title; });
+            if (existing) { existing.qty++; }
+            else { cart.push({ name: title, desc: desc, cat: cat, price: price, img: img, qty: 1 }); }
+            saveCart(); renderCart(); openCart();
+        }
+
+        function removeFromCart(name) {
+            cart = cart.filter(function (i) { return i.name !== name; });
+            saveCart(); renderCart();
+        }
+
+        function changeQty(name, delta) {
+            var item = cart.find(function (i) { return i.name === name; });
+            if (!item) return;
+            item.qty += delta;
+            if (item.qty <= 0) { removeFromCart(name); return; }
+            saveCart(); renderCart();
+        }
+
+        function renderCart() {
+            var totalCount = cart.reduce(function (s, i) { return s + i.qty; }, 0);
+            cartCountEl.textContent = totalCount;
+            if (cart.length === 0) {
+                cartItemsEl.innerHTML = '<div class="cart-empty"><i class="fa-solid fa-cart-shopping"></i>Корзина пуста</div>';
+                cartTotalEl.textContent = '$0';
+                return;
+            }
+            cartItemsEl.innerHTML = cart.map(function (i) {
+                var imgBlock = i.img ? '<img src="' + i.img + '" alt="">' : '<i class="fa-solid fa-box" style="font-size:22px;color:var(--primary)"></i>';
+                return '<div class="cart-item">' +
+                    '<div class="cart-item-icon">' + imgBlock + '</div>' +
+                    '<div class="cart-item-info">' +
+                        '<h4>' + i.name + '</h4>' +
+                        '<div class="price">' + formatPrice(i.price * i.qty) + '</div>' +
+                        '<div class="cart-item-qty">' +
+                            '<button data-action="minus" data-name="' + i.name + '">−</button>' +
+                            '<span>' + i.qty + '</span>' +
+                            '<button data-action="plus" data-name="' + i.name + '">+</button>' +
+                        '</div>' +
+                    '</div>' +
+                    '<button class="cart-item-remove" data-action="remove" data-name="' + i.name + '"><i class="fa-solid fa-trash"></i></button>' +
+                '</div>';
+            }).join('');
+            var total = cart.reduce(function (s, i) { return s + i.price * i.qty; }, 0);
+            cartTotalEl.textContent = formatPrice(total);
+        }
+
+        function openCart() {
+            cartSidebar.classList.add('open');
+            overlay.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+        function closeCart() {
+            cartSidebar.classList.remove('open');
+            overlay.classList.remove('active');
+            document.body.style.overflow = '';
+        }
+
+        document.addEventListener('click', function (e) {
+            var addBtn = e.target.closest('.add-to-cart');
+            if (addBtn) { var card = addBtn.closest('.product-card'); if (card) addToCart(card); return; }
+            var actionBtn = e.target.closest('[data-action]');
+            if (actionBtn) {
+                var name = actionBtn.dataset.name;
+                var action = actionBtn.dataset.action;
+                if (action === 'plus')   changeQty(name, 1);
+                if (action === 'minus')  changeQty(name, -1);
+                if (action === 'remove') removeFromCart(name);
+                return;
+            }
+            if (e.target.closest('.cart-btn')) { openCart(); return; }
+            if (e.target.closest('#cartClose') || e.target === overlay) { closeCart(); return; }
+        });
+
+        checkoutBtn.addEventListener('click', function () {
+            if (cart.length === 0) { alert('Корзина пуста!'); return; }
+            var total = cart.reduce(function (s, i) { return s + i.price * i.qty; }, 0);
+            alert('Заказ оформлен!\nСумма: ' + formatPrice(total) + '\n\nМы свяжемся с вами в ближайшее время.');
+            cart = []; saveCart(); renderCart(); closeCart();
+        });
+
+        document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeCart(); });
+        document.querySelectorAll('.nav a[href^="#"]').forEach(function (link) {
+            link.addEventListener('click', function (e) {
+                var target = document.querySelector(link.getAttribute('href'));
+                if (target) { e.preventDefault(); target.scrollIntoView({ behavior: 'smooth' }); }
+            });
+        });
+        var contactForm = document.querySelector('.contact-form');
+        if (contactForm) {
+            contactForm.addEventListener('submit', function (e) {
+                e.preventDefault();
+                alert('Спасибо! Ваше сообщение отправлено.');
+                contactForm.reset();
+            });
+        }
+        renderCart();
+    })();
+    </script>
+</body>
+</html>
